@@ -1,0 +1,28 @@
+#protfolio .protfolio-list{
+	width: 1140px;
+	height: 360px;
+	margin: 0 auto;
+}
+#protfolio .protfolio-list li{
+	width: 285px;
+	height: 180px;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	cursor: pointer;
+}
+#protfolio .protfolio-list .mask{
+	width: 285px;
+	height: 180px;
+	background: rgb(31,37,44);
+	opacity: 0;
+	filter: alpha(opacity:0);
+	position: absolute;
+	left: 0;top: 0;
+	display: none;
+
+}
+#protfolio .protfolio-list img{
+	width: 100%;
+	height: 100%;
+}

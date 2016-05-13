@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+ul,ol{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+img{
+  border: 0;
+}
+body{
+  font-family: 'Raleway',sans-serif;
+}
+/*nav开始*/
+#nav{
+  height: 192px;
+}
+#nav .nav-icon{
+  background: url(../imgs/nav-icon.png) no-repeat;
+  width: 52px;
+  height: 52px;
+  position: absolute;
+  top: 64px;
+  right: 86px;
+  cursor: pointer;
+}
+
+#nav .nav-menu-box{
+  height: 192px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: -192px;
+
+}
+#nav .nav-menu-bg{
+  opacity: 0.39;
+  background: rgb(82,87,89);
+  filter: alpha(opacity=39);
+  height: 100%;
+}
+#nav .nav-menu{
+  width: 649px;
+  height: 32px;
+  position: absolute;
+  left: 50%;
+  margin-left: -347px;
+  top: 50%;
+  margin-top: -16px;
+
+}
+#nav li{
+  float: left;
+}
+#nav li a{
+  margin: 5px 20px;
+  display: block;
+  color: #fff;
+  font-size: 15px;
+
+
+}
+#nav .nav-close-icon{
+  width: 35px;
+  height: 35px;
+  background: url(../imgs/close2.png);
+  position: absolute;
+  right: 136px;
+  top: 50%;
+  margin-top: -18px;
+  cursor: pointer;
+}
+
+
+
+/*nav结束*/
+/*header开始*/
+#header{
+  min-height: 830px;
+  background: url(../imgs/bg2.jpg) no-repeat;
+  overflow: hidden;
+/*  -webkite-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: absolute;
+  top: 0;*/
+}
+#header .header-bg{
+  width: 100%;
+}
+
+/*header结束*/
